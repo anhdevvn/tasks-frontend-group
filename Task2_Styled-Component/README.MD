@@ -5,6 +5,27 @@
 
 It removes the mapping between components and styles. This means that when you're defining your styles, you're actually creating a normal React component, that has your styles attached to it.
 
+# TOC
+- [Styled-Components](#styled-components)
+- [TOC](#toc)
+- [Coming from CSS](#coming-from-css)
+  - [How do Styled Components work within a component?](#how-do-styled-components-work-within-a-component)
+- [Plus](#plus)
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+- [Adapting based on props](#adapting-based-on-props)
+- [Extending Styles](#extending-styles)
+- [Styling any component](#styling-any-component)
+- [Passed props](#passed-props)
+- [Define Styled Components outside of the render method](#define-styled-components-outside-of-the-render-method)
+- [Pseudoelements, pseudoselectors, and nesting](#pseudoelements-pseudoselectors-and-nesting)
+- [Attaching additional props](#attaching-additional-props)
+- [Overriding .attrs](#overriding-attrs)
+- [Animations](#animations)
+- [Notes](#notes)
+- [Reference](#reference)
+
+
 # Coming from CSS
 ## How do Styled Components work within a component?
 If you're familiar with importing CSS into your components (e.g. like CSSModules) you'll be used to doing something like this:
